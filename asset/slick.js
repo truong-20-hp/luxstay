@@ -51,8 +51,8 @@ $(document).ready(function(){
         nextArrow: false,
         prevArrow: false,
         autoplay: true,
-        autoplaySpeed: 1000,
-        wetk
+        autoplaySpeed: 2000,
+    
     });
 
 })

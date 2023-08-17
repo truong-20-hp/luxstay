@@ -1,0 +1,35 @@
+/* tablet and mobi  */
+@media (max-width: 1023px){
+    .footer__item__heading{
+        text-align: center;
+    }
+    .footer__item__content{
+        text-align: center;
+
+    }
+}
+
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+
+}
+
+/* mobi */
+@media ( max-width: 739px){
+    .header__search-mobi{
+        display: block;
+    }
+
+    .slider{
+        margin-top: 170px;
+    }
+
+    .slider-show {
+        margin-top: 50px;
+    }
+    .container__download__logo img{
+        width: 70px;
+    }
+
+}

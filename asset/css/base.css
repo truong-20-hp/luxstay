@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+
+}
+
+
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+
+
+}
+
+:root{
+    --text-color: #333;
+    
+}
+
+.app {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+button.slick-prev.slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+    z-index: 1;
+    padding: 14px 20px;
+    background-color: #f8fcf8;
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 50%;
+}
+button.slick-next.slick-arrow {
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%);
+    z-index: 1;
+    padding: 14px 20px;
+    background-color: #f8fcf8;
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 50%;
+}
+.slide-arrow{
+    font-size: 1.8rem;
+}
+
